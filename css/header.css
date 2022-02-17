@@ -1,0 +1,35 @@
+.header {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+  }
+  
+  .header-bars {
+    color: var(--dark4);
+  }
+  
+  .header-nav {
+    display: none;
+  }
+  
+  .header-nav__item {
+    padding: 8px 14px;
+  }
+  
+  header nav a:last-child {
+    color: var(--pink);
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .header {
+      padding-top: 70px;
+    }
+    .header-nav {
+      display: initial;
+    }
+    .header-bars {
+      display: none;
+    }
+  }
