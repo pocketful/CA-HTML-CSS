@@ -1,0 +1,26 @@
+.button {
+    background: var(--light1);    
+    color: var(--dark1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 22px 56px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    background: url("/assets/background.svg");
+    background-size: cover;
+    background-position: right top;
+    border-radius: 100px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    z-index: -1;
+}
