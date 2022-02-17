@@ -1,0 +1,10 @@
+body {
+  background-color: var(--light1);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
+}
