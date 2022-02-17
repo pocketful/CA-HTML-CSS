@@ -1,0 +1,37 @@
+.upsell {
+  background-image: url("/assets/background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 110% auto; */
+  background-size: cover;
+  margin-bottom: 64px;
+}
+
+.upsell-content {
+  padding: 122px 32px 32px 32px;
+}
+
+.upsell__title {
+  padding-bottom: 1rem;
+}
+
+.upsell__text {
+  color: var(--dark1);
+}
+
+@media screen and (min-width: 1024px) {
+  .upsell-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 1440px;
+  }
+
+  .upsell {
+    background-size: initial;
+    margin-bottom: 120px;
+  }
+
+  .upsell-content {
+    padding: 154px 64px 64px 64px;
+  }
+}
