@@ -3,6 +3,12 @@
 @import "reset.css";
 @import "variables.css";
 @import "common.css";
-@import "header.css";
-
+@import "components/header.css";
+@import "components/button.css";
+@import "components/main/hero.css";
+@import "components/main/upsell.css";
+@import "components/main/press.css";
+@import "components/main/showcase.css";
+@import "components/footer/footer-upsell.css";
+@import "components/footer/footer-contacts.css";
 

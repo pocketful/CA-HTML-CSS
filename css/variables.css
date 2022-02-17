@@ -1,17 +1,14 @@
 :root {
-
-/* Colors */
-
---dark1: #111111;
---dark2: #555555;
---dark3: #777777;
---dark4: #999999;
---light1: #FFFFFF;
---light2: #EEEEEE;
---light3: #CCCCCC;
---orange: #FF8139;
---pink: #FF3998;
---red: #FF3939;
---light-orange: #FFF0E8;
-
+  /* Colors */
+  --dark1: #111111;
+  --dark2: #555555;
+  --dark3: #777777;
+  --dark4: #999999;
+  --light1: #FF8F9FF;
+  --light2: #eeeeee;
+  --light3: #cccccc;
+  --orange: #ff8139;
+  --pink: #ff3998;
+  --red: #ff3939;
+  --light-orange: #fff0e8;
 }
