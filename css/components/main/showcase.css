@@ -1,0 +1,23 @@
+.showcase {
+  margin-bottom: 40px;
+}
+
+.showcase-intro {
+}
+
+.showcase__title {
+  padding-bottom: 1rem;
+}
+
+.showcase__text {
+}
+
+.showcase__text a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .showcase {
+    margin-bottom: 56px;
+  }
+}
