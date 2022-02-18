@@ -1,0 +1,97 @@
+.grid-item-1 {
+  grid-area: text;
+}
+.grid-item-2 {
+  grid-area: about;
+}
+.grid-item-3 {
+  grid-area: nft;
+}
+.grid-item-4 {
+  grid-area: contact;
+}
+.grid-item-5 {
+  grid-area: social;
+}
+.grid-item-6 {
+  grid-area: copyright;
+}
+
+.footer-contacts {
+  color: var(--dark2);
+  padding-top: 64px;
+  padding-bottom: 105px;
+  display: grid;
+  row-gap: 40px;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "text text"
+    "about nft"
+    "contact social"
+    "copyright copyright";
+}
+
+.fc-text {
+  padding-bottom: 24px;
+}
+
+.fc-text__img {
+  padding-bottom: 20px;
+}
+
+.fc-text__icons a {
+  color: var(--dark4);
+  margin-right: 16px;
+}
+
+.grid-item nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.fc-copyright p {
+  color: var(--dark4);
+  line-height: 1;
+  padding-top: 24px;
+}
+
+.footer-contacts h4 {
+  color: var(--dark2);
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.footer-contacts p {
+  margin-bottom: 1.5rem;
+}
+
+.fc-copyright__launch {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-contacts {
+    padding-top: 120px;
+    padding-bottom: 47px;
+    grid-template-columns: 50% 10% 10% 10% 10%;
+    grid-template-areas:
+      "text about nft contact social"
+      "copyright copyright copyright copyright copyright";
+  }
+
+  .fc-copyright {
+    padding-top: 20px;
+  }
+
+  .fc-copyright__launch {
+    display: initial;
+  }
+
+  .fc-copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -61,7 +61,6 @@
   }
   .press {
     height: 80px;
-    justify-content: space-between;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "boomerang blimp qrco opendoor droplet";
     margin-bottom: 120px;
@@ -69,7 +68,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1040px) {
   .press {
     grid-template-columns: repeat(5, auto);
   }
