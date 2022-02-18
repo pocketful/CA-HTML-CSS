@@ -20,11 +20,11 @@
 .footer-contacts {
   color: var(--dark2);
   padding-top: 64px;
-  padding-bottom: 105px;
+  padding-bottom: 75px;
   display: grid;
-  row-gap: 40px;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  justify-content: left;
+  grid-template-columns: auto auto;
   grid-template-areas:
     "text text"
     "about nft"
@@ -42,6 +42,7 @@
 
 .fc-text__icons a {
   color: var(--dark4);
+  font-size: 18px;
   margin-right: 16px;
 }
 
@@ -68,14 +69,26 @@
   margin-bottom: 1.5rem;
 }
 
+.footer-contacts a {
+  font-size: 1.25rem;
+}
+
 .fc-copyright__launch {
   display: none;
+}
+
+
+@media screen and (min-width: 500px) {
+  .footer-contacts { 
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .footer-contacts {
     padding-top: 120px;
     padding-bottom: 47px;
+    justify-content: space-between;
     grid-template-columns: 50% 10% 10% 10% 10%;
     grid-template-areas:
       "text about nft contact social"

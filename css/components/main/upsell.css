@@ -3,22 +3,26 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 64px;
+  margin-bottom: 64px
 }
 
 .upsell-content {
-  padding: 122px 32px 32px 32px;
+  padding: 122px 32px 2px 32px;
 }
 
 .upsell__title {
-  padding-bottom: 1rem;
+
 }
 
 .upsell__text {
   color: var(--dark1);
 }
 
+
 @media screen and (min-width: 1024px) {
+  .upsell {
+    margin-bottom: 106px
+  }
   .upsell-container {
     padding-left: 80px;
     padding-right: 80px;
@@ -28,10 +32,16 @@
 
   .upsell {
     background-size: initial;
-    margin-bottom: 120px;
+  }
+
+  .upsell__title {
+    padding-top: 34px;
+    padding-bottom: 0.5rem;
   }
 
   .upsell-content {
-    padding: 154px 64px 64px 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 28px;
   }
 }

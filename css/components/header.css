@@ -3,25 +3,26 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 32px;
-  /* margin-bottom: 42px; */
-  /* margin-bottom: 2.625em; */
+  font-size: 1.25rem;
 }
 
 .header-bars {
   color: var(--dark4);
+  font-size: 28px;
 }
 
 .header-nav {
   display: none;
 }
 
-.header-nav__item {
+.header-nav__item:not(:last-child) {
   padding: 8px 14px;
 }
 
 header nav a:last-child {
   color: var(--accent2);
 }
+
 
 @media screen and (min-width: 1024px) {
   .header {

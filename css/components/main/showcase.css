@@ -25,13 +25,7 @@
 .sc-card {
   background-color: var(--light2);
   border-radius: 16px;
-  width: 290px;
-}
-
-.sc-card-1 {
-}
-
-.sc-card__img {
+  min-width: 290px;
 }
 
 .sc-card__text {
@@ -88,6 +82,7 @@
   font-size: 1.125rem;
   font-weight: 400;
 }
+
 
 @media screen and (min-width: 1024px) {
   .showcase {
