@@ -19,7 +19,7 @@
 .showcase-cards {
   display: flex;
   gap: 40px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .sc-card {
@@ -92,6 +92,7 @@
   .showcase__title {
     margin-bottom: 1.5rem;
   }
+  
   .showcase-intro p {
     margin-bottom: 56px;
   }

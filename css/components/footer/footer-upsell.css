@@ -1,8 +1,8 @@
 .footer-upsell {
   background-image: url("/assets/upsell-footer-image.svg");
   background-repeat: no-repeat;
-  background-size: 46%;
-  background-position: 104% bottom;
+  background-size: 48%;
+  background-position: 114% bottom;
   padding-bottom: 70px;
   /* border-bottom: 1px solid var(--light2); */
 }
@@ -12,7 +12,7 @@
 }
 
 .footer-upsell-content {
-  width: 54%;
+  width: 56%;
 }
 
 .footer-upsell__text {
@@ -34,9 +34,11 @@
     padding-top: 54px;
     padding-bottom: 124px;
   }
+
   .footer-upsell-content {
     width: 44%;
   }
+  
   .footer-upsell__text-hidden {
     display: initial;
   }

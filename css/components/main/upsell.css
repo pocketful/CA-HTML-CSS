@@ -10,10 +10,6 @@
   padding: 122px 32px 2px 32px;
 }
 
-.upsell__title {
-
-}
-
 .upsell__text {
   color: var(--dark1);
 }
@@ -23,6 +19,7 @@
   .upsell {
     margin-bottom: 106px
   }
+  
   .upsell-container {
     padding-left: 80px;
     padding-right: 80px;

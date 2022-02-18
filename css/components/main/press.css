@@ -51,15 +51,19 @@
   /* .press__item-1::after {
     display: none;
   } */
+  
   .press__item-1--small {
     display: none;
   }
+
   .press__item-1 {
     display: initial;
   }
+
   .press__item-4 {
     display: initial;
   }
+
   .press {
     height: 80px;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
