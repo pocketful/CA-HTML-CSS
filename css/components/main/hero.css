@@ -2,8 +2,8 @@
   background-image: url("/assets/graphic.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-size: 95%; */
   background-position: 206px 0;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -12,7 +12,6 @@
 }
 
 .hero__subtitle {
-  padding-top: 80px;
 }
 
 .hero__title {
@@ -24,6 +23,21 @@
 .hero__button {
 }
 
+@media screen and (min-width: 500px) {
+  .hero {
+    background-position: 300px 0;
+  }
+  .hero-content {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .hero {
+    background-position: 500px 0;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .hero {
     background-size: 53%;
@@ -31,11 +45,9 @@
     /* background-position: 100% 8%; */
     background-position: 670px 90px;
     padding-bottom: 200px;
+    padding-top: 200px;
   }
   .hero-content {
     width: 50%;
-  }
-  .hero__subtitle {
-    padding-top: 200px;
   }
 }
