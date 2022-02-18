@@ -1,0 +1,20 @@
+.line {
+  position: relative;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid var(--light2);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .line::after {
+    left: initial;
+    width: calc(100% - 160px);
+  }
+}

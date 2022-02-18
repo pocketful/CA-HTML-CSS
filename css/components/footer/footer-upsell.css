@@ -4,18 +4,7 @@
   background-size: 48%;
   background-position: 114% bottom;
   padding-bottom: 66px;
-  position: relative;
   /* border-bottom: 1px solid var(--light2); */
-}
-
-.footer-upsell::after {
-  content: "";
-  position: absolute;
-  border-bottom: 1px solid var(--light2);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 .footer-upsell-content {
@@ -46,10 +35,5 @@
     padding-top: 120px;
     padding-bottom: 120px;
     background-position: 80% bottom;
-  }
-
-  .footer-upsell::after {
-    left: initial;
-    width: calc(100% - 160px);
   }
 }
