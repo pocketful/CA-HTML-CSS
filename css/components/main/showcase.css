@@ -1,24 +1,97 @@
 .showcase {
-  height: 600px;
+  margin-bottom: 64px;
+  padding-bottom: 92px;
+}
+
+.showcase p {
+  margin-bottom: 0;
+}
+
+.showcase-intro p {
   margin-bottom: 40px;
-}
-
-.showcase-intro {
-}
-
-.showcase__title {
-  padding-bottom: 1rem;
-}
-
-.showcase__text {
 }
 
 .showcase__text a {
   text-decoration: underline;
 }
 
+/* cards */
+.showcase-cards {
+}
+
+.sc-card {
+  background-color: var(--light2);
+  border-radius: 16px;
+}
+
+.sc-card-1 {
+}
+
+.sc-card__img {
+}
+
+.sc-card__text {
+  padding-top: 24px;
+  /* padding-bottom: 24px; */
+  display: flex;
+  //justify-content: space-between;
+}
+
+.card__text-left {
+}
+
+.card__text-right {
+}
+
+/* card text */
+.sc-card__text p {
+  line-height: 1;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.ct-price img {
+  margin-right: 8px;
+}
+
+.ct-gloop {
+  text-transform: uppercase;
+  color: var(--accent1);
+  font-size: 0.75rem;
+}
+.ct-color {
+  color: var(--dark1);
+  font-size: 1.25rem;
+}
+.ct-id {
+  color: var(--dark3);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.ct-bid {
+  color: var(--dark4);
+  font-size: 0.75rem;
+}
+.ct-price {
+  color: var(--dark1);
+  font-size: 1.125rem;
+}
+.ct-day {
+  color: var(--dark3);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 @media screen and (min-width: 1024px) {
   .showcase {
+    margin-bottom: px;
+    padding-bottom: 120px;
+  }
+
+  .showcase__title {
+    margin-bottom: 1.5rem;
+  }
+  .showcase-intro p {
     margin-bottom: 56px;
   }
 }
