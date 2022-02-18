@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1440px) {
   .press {
     grid-template-columns: repeat(5, auto);
   }

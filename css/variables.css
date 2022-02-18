@@ -1,5 +1,4 @@
 :root {
-
   /* Colors */
   --dark1: #111111;
   --dark2: #555555;
@@ -8,9 +7,9 @@
   --light1: #ffffff;
   --light2: #eeeeee;
   --light3: #cccccc;
-  --orange: #ff8139;
-  --pink: #ff3998;
-  --green: #39ffa0;
-  --red: #ff3939;
-  --light-orange: #fff0e8;
+  --accent1: #ff8139;
+  --accent2: #ff3998;
+  --accent3: #39ffa0;
+  --accent4: #ff3939;
+  --accent5: #fff0e8;
 }

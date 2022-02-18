@@ -25,14 +25,14 @@
 
 @media screen and (min-width: 500px) {
   .hero {
-    background-position: 300px 0;
+    background-position: 280px 0;
   }
   .hero-content {
     width: 60%;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 724px) {
   .hero {
     background-position: 500px 0;
   }

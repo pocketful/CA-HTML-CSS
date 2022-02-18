@@ -20,7 +20,7 @@
 }
 
 header nav a:last-child {
-  color: var(--pink);
+  color: var(--accent2);
 }
 
 @media screen and (min-width: 1024px) {
