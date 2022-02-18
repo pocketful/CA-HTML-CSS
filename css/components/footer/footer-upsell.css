@@ -1,0 +1,40 @@
+.footer-upsell {
+  background-image: url("/assets/upsell-footer-image.svg");
+  background-repeat: no-repeat;
+  background-size: 48%;
+  background-position: 114% bottom;
+  padding-bottom: 64px;
+  padding-bottom: 66px;
+}
+
+.footer-upsell-content {
+  width: 56%;
+}
+
+.footer-upsell__subtitle {
+}
+
+.footer-upsell__title {
+}
+
+.footer-upsell__text {
+}
+
+.footer-upsell__button {
+}
+
+@media screen and (min-width: 500px) {
+  .footer-upsell {
+    background-size: contain;
+    background-position: 90% bottom;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-upsell {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: 80% bottom;
+    
+  }
+}
