@@ -5,7 +5,7 @@
 .line::after {
   content: "";
   position: absolute;
-  border-bottom: 1px solid var(--light2);
+  background-color: var(--light2);
   height: 2px;
   bottom: 0;
   left: 0;
@@ -16,5 +16,27 @@
   .line::after {
     left: initial;
     width: calc(100% - 160px);
+  }
+}
+
+/* line mistake */
+.line-mistake {
+  position: relative;
+}
+
+.line-mistake::after {
+  content: "";
+  position: absolute;
+  background-color: var(--dark2);
+  opacity: 8%;
+  height: 2px;
+  bottom: 52%;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 626px) {
+  .line-mistake::after {
+     display: none;
   }
 }
