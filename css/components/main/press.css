@@ -1,0 +1,76 @@
+.press__item-1--small {
+  grid-area: boomerang;  
+}
+.press__item-1 {
+  display: none;
+  grid-area: boomerang;
+  /* position: relative; */
+}
+
+.press__item-2 {
+  grid-area: blimp;
+}
+.press__item-3 {
+  grid-area: qrco;
+}
+.press__item-4 {
+  display: none;
+  grid-area: opendoor;
+}
+.press__item-5 {
+  grid-area: droplet;
+}
+
+/* .press__item-1::after {
+  content: "";
+  position: absolute;
+  background-color: var(--light1);
+  width: 35%;
+  height: 90%;
+  left: 132px;
+} */
+
+.press {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "boomerang blimp"
+    "qrco droplet";
+  margin-bottom: 56px;
+}
+
+.press__item img {
+    max-height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  /* .press__item-1::after {
+    display: none;
+  } */
+  .press__item-1--small {
+    display: none;
+  }
+  .press__item-1 {
+    display: initial;
+  }
+  .press__item-4 {
+    display: initial;
+  }
+  .press {
+    height: 80px;
+    justify-content: space-between;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "boomerang blimp qrco opendoor droplet";
+    margin-bottom: 120px;
+    column-gap: 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .press {
+    grid-template-columns: repeat(5, auto);
+  }
+}
